@@ -1,0 +1,10 @@
+[workspace]
+ members = ["web_core", "web_server"] 
+ resolver = "2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace.dependencies]
+thiserror = "1.0.61"
+anyhow = "1.0.86"
+web-core ={ path = "./web_core"}
