@@ -6,5 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anyhow = {workspace = "true"}
-jwt-simple = {workspace = "true"}
+anyhow = {workspace = true}
+jwt-simple = {workspace = true}
+serde = {workspace = true}
+chrono = {workspace=true}
+tokio = {workspace=true}
+oso = {version="0.27.3",features=["anyhow"]}
