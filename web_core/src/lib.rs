@@ -1,5 +1,4 @@
 use serde::{Deserialize, Serialize};
-
 mod utils;
 #[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
 pub struct User {

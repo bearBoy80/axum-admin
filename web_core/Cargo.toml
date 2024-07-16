@@ -11,4 +11,7 @@ jwt-simple = {workspace = true}
 serde = {workspace = true}
 chrono = {workspace=true}
 tokio = {workspace=true}
+sqlx = {workspace = true}
+sqlx-adapter = {version = "1.2.0",features = ["runtime-tokio-rustls","tokio"]}
+[dev-dependencies]
 oso = {version="0.27.3",features=["anyhow"]}
